@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ResourceValues</string>
+    <string name="greeting">스터디 앱 환영한다!</string>
+</resources>
