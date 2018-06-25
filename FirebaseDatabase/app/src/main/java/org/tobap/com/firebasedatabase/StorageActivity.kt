@@ -3,6 +3,8 @@ package org.tobap.com.firebasedatabase
 import android.app.Activity
 import android.content.Intent
 import android.graphics.Bitmap
+import android.graphics.drawable.ShapeDrawable
+import android.graphics.drawable.shapes.OvalShape
 import android.os.Bundle
 import android.provider.MediaStore
 import android.support.v7.app.AppCompatActivity
@@ -21,6 +23,8 @@ class StorageActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_storage)
 
+        imageView_storage.background = ShapeDrawable(OvalShape())
+        //imageView_storage.clipToOutline = true
         imageView_storage.setOnClickListener {
             var intent = Intent(Intent.ACTION_PICK)
             intent.type = "image/*"
@@ -50,6 +54,7 @@ class StorageActivity : AppCompatActivity() {
             var imageUrl = data!!.data
             bitmap = MediaStore.Images.Media.getBitmap(this.contentResolver, imageUrl)
             imageView_storage.setImageBitmap(bitmap)
+
         }
     }
 
