@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "944224900493",
+    "firebase_url": "https://fir-database-d09b2.firebaseio.com",
+    "project_id": "fir-database-d09b2",
+    "storage_bucket": "fir-database-d09b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944224900493:android:e7e92f8d9e79ada3",
+        "android_client_info": {
+          "package_name": "org.tobap.com.firebasedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944224900493-q8re5h3m4ro692ho8fr0p4fvib91jfi6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.tobap.com.firebasedatabase",
+            "certificate_hash": "b00c8a200a3430d4541c6bee29fd85ddb0bf345d"
+          }
+        },
+        {
+          "client_id": "944224900493-7mfk0elc89mf7amjehrc4ia0f3bjb9se.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCayUpFTUc0bJmp6shg72zBdbjc-3dVp9A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944224900493-7mfk0elc89mf7amjehrc4ia0f3bjb9se.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
