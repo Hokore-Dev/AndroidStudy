@@ -1,5 +1,6 @@
 package org.tobap.com.firebasedatabase
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
@@ -14,6 +15,10 @@ class MainActivity : AppCompatActivity() {
 
         button_database_create_input.setOnClickListener {
             databaseCreate()
+        }
+
+        button_database_read.setOnClickListener {
+            startActivity(Intent(this, ReadDatabase::class.java))
         }
     }
 

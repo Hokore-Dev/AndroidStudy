@@ -1,3 +1,3 @@
 package org.tobap.com.firebasedatabase
 
-data class UserDTO(var name:String?, var age:Int?, var city:String?)
+data class UserDTO(var name:String? = null, var age:Int? = null, var city:String? = null)
