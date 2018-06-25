@@ -20,6 +20,10 @@ class MainActivity : AppCompatActivity() {
         button_database_read.setOnClickListener {
             startActivity(Intent(this, ReadDatabase::class.java))
         }
+
+        button_storage.setOnClickListener {
+            startActivity(Intent(this, StorageActivity::class.java))
+        }
     }
 
     private fun databaseCreate()
