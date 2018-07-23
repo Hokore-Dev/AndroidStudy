@@ -71,3 +71,34 @@ https://console.firebase.google.com/u/1/project/fcmfirebaseproject-f63af/notific
 
 ## ShardedPreference
 안드로이드 내부 캐시 저장
+
+## WindowManager
+스크린 최상위에 있는 뷰
+- 전화 수신시 발신자 정보창
+- 페이스북 챗해드
+- 스크린 잠금 화면
+
+## Resource Value
+values
+string.xml 문자열 보관
+array.xml 문자열을 배열로 보관
+colors.xml 컬러 코드 보관
+dimens.xml 측정 단위 보관
+styles.xml 뷰나 위젯에 대한 속성 보관 (Local)
+themes.xml 뷰나 위젯에 대한 속성 보관 (Global)
+
+drawable 이미지 보관
+image/xml (Plugin Android Drawable)
+MDPI , HDPI XHDPI XX XXX (DP 값에 대한 해상도)
+현재 출시되는 해상도는 XXHDPI or XXXHDPI
+PNG/JPG, 백터 기반 이미지, 클릭 이벤트 이미지
+ninePatch (.9 로 하면 인식함)
+
+anim 애니메이션 보관
+
+
+menu 메뉴 보관
+mipmap 아이콘 보관 
+layout 레이아웃 보관
+xml 임의적 XML 보관
+raw mp3 ogg 각종 미디어 보관
