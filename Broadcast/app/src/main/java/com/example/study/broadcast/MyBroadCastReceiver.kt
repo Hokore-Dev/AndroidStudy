@@ -5,9 +5,6 @@ import android.content.Context
 import android.content.Intent
 import android.widget.Toast
 
-/**
- * Created by sundaytoz on 2018-06-21.
- */
 class MyBroadCastReceiver : BroadcastReceiver()
 {
     override fun onReceive(context: Context?, intent: Intent?) {
